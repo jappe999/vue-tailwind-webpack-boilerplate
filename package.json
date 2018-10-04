@@ -1,0 +1,34 @@
+{
+  "name": "dental-supply",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --progress --colors",
+    "watch": "cross-env NODE_ENV=development webpack --debug --watch --watch-poll --progress --colors"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "glob-all": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss": "^7.0.5",
+    "postcss-loader": "^3.0.0",
+    "purgecss-webpack-plugin": "^1.3.0",
+    "style-loader": "^0.23.0",
+    "tailwindcss": "^0.6.6",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
